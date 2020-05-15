@@ -6137,13 +6137,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #7b747d!important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: #7b747d !important;
 }
 
 .bg-white {
@@ -10096,7 +10096,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(202, 115, 219, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
