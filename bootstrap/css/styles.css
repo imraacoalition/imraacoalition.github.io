@@ -2457,8 +2457,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #a980bd;
-  border-color: #a980bd;
+  background-color: #fad2e3;
+  border-color: #fad2e3;
 }
 .btn-primary:hover {
   color: #fff;
@@ -9748,11 +9748,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #a980bd !important;
+  color: #fad2e3 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #a980bd !important;
+  color: #fad2e3 !important;
 }
 
 .text-secondary {
@@ -10096,7 +10096,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(102, 7, 121, 0.9);
+  background: rgba(250, 210, 227, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
