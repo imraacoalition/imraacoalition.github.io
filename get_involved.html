@@ -17,6 +17,38 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="bootstrap/css/styles.css" rel="stylesheet" />
+
+    <style>
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #825d94;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #9b7bac;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #faf2f9;
+            padding: 20px;
+        }
+    </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -33,6 +65,40 @@
                 </div>
             </div>
         </nav>
+        <section class="page-section bg-primary" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Get Involved</h2>
+                        <hr class="divider pinkish my-4" />
+                        <p class="text-white-50 mb-4">As a collaborative, global initiative, IMRAA is always open to accepting volunteers, 
+                                mutual promotions, and donations. To get involved or to start an IMRAA chapter at an institution near you, 
+                                contact us in the form below or at imraa.coalition@gmail.com</p>
+                        <a class="btn btn-light btn-xl" href="#get_involved">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="get_involved">
+            <div class="container">
+                <form action="mailto:imraa.coalition@gmail.com" method="post">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                          
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                 </form>
+            </div>
+        </section>
 
         <!-- Contact-->
         <section class="page-section" id="contact">
