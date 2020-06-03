@@ -1,3 +1,18 @@
+<?php
+    if ($_POST["submit"]){
+        $recipient = "imraa.coalition@gmail.com";
+        $subject = "Contact Form";
+        $fname = $_POST["fname"];
+        $lname = $_POST["lname"];
+        $sender_email = $_POST["email"];
+        $message = $_POST["subject"];
+
+        $mail_body = "Name: " . $fname . " " . $lname . "\nEmail: " . $sender_email . "\n\n" . $message;
+
+        mail($recipient, $subject, $mail_body, "From: $sender <$sender_email>");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -47,6 +62,7 @@
             border-radius: 5px;
             background-color: #faf2f9;
             padding: 20px;
+            padding-left: 100px;
         }
     </style>
     </head>
@@ -60,7 +76,7 @@
                         <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="./team.html">Our Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="./projects.html">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./get_involved.html">Get Involved</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./get_involved.php">Get Involved</a></li>
                     </ul>
                 </div>
             </div>
@@ -82,12 +98,12 @@
 
         <section class="page-section" id="get_involved">
             <div class="container2">
-                <form action="mailto:imraa.coalition@gmail.com" method="post">
+                <form action="get_involved.php" method="post">
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="fname" name="fname" placeholder="Your name..">
                     
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <input type="text" id="lname" name="lname" placeholder="Your last name..">
                     
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="Your email..">
