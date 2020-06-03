@@ -2456,7 +2456,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #825d94;
   background-color: #fad2e3;
   border-color: #fad2e3;
 }
@@ -2636,9 +2636,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-light {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #825d94;
+  background-color: #fad2e3;
+  border-color: #fad2e3;
 }
 .btn-light:hover {
   color: #212529;
@@ -10073,6 +10073,38 @@ header.masthead h1 {
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.team_masthead {
+  padding-top: 4rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(108, 90, 115, 0.8) 0%, rgba(108, 90, 115, 0.8) 100%), url("../assets/img/team_header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.team_masthead h1 {
+  font-size: 3rem;
+}
+@media (min-width: 992px) {
+  header.team_masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.team_masthead p {
+    font-size: 1.15rem;
+  }
+  header.team_masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.team_masthead h1 {
     font-size: 3.5rem;
   }
 }
