@@ -31,6 +31,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
+  --pinkish: #fad2e3;
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -2456,9 +2457,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #825d94;
-  background-color: #fad2e3;
-  border-color: #fad2e3;
+  color: #fff;
+  background-color: #825d94;
+  border-color: #825d94;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2636,30 +2637,30 @@ fieldset:disabled a.btn {
 }
 
 .btn-light {
-  color: #825d94;
+  color: #f7f7f7;
   background-color: #fad2e3;
   border-color: #fad2e3;
 }
 .btn-light:hover {
-  color: #212529;
-  background-color: #e2e6ea;
-  border-color: #dae0e5;
+  color: #f7f7f7;
+  background-color: #fad2e3;
+  border-color: #fad2e3;
 }
 .btn-light:focus, .btn-light.focus {
-  color: #212529;
-  background-color: #e2e6ea;
-  border-color: #dae0e5;
+  color: #f7f7f7;
+  background-color: #fad2e3;
+  border-color: #fad2e3;
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
 .btn-light.disabled, .btn-light:disabled {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #f7f7f7;
+  background-color: #fad2e3;
+  border-color: #fad2e3;
 }
 .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
-  color: #212529;
-  background-color: #dae0e5;
-  border-color: #d3d9df;
+  color: #f7f7f7;
+  background-color: #fad2e3;
+  border-color: #fad2e3;
 }
 .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
@@ -10080,7 +10081,7 @@ header.masthead h1 {
 header.team_masthead {
   padding-top: 4rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(108, 90, 115, 0.8) 0%, rgba(108, 90, 115, 0.8) 100%), url("../assets/img/team_header.jpg");
+  background: linear-gradient(to bottom, rgba(108, 90, 115, 0.8) 0%, rgba(108, 90, 115, 0.8) 100%), url("../assets/img/flowers.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
