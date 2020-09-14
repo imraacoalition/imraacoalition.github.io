@@ -2638,13 +2638,13 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: #f7f7f7;
-  background-color: #fad2e3;
-  border-color: #fad2e3;
+  background-color: #fac0d8;
+  border-color: #fabcd6;
 }
 .btn-light:hover {
   color: #f7f7f7;
-  background-color: #f8bad4;
-  border-color: #f8bad4;
+  background-color: #f8a0c5;
+  border-color: #f8a0c5;
 }
 .btn-light:focus, .btn-light.focus {
   color: #f7f7f7;
